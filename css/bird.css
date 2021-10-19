@@ -1,4 +1,4 @@
-  body {
+/*  body {
   --s: 25vmin;
   --p: calc(var(--s) / 2);
   --c1: pink;
@@ -82,7 +82,7 @@
   body {
     animation: none;
   }
-}
+}*/
 .box{
   position: relative;
   margin: auto;
