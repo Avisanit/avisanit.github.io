@@ -1,38 +1,3 @@
-body {
-	margin: 0;
-	overflow: visible;
-	background: linear-gradient(90deg, #aea4e3, #d3ffe8);
-}
-#main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  box-sizing: content-box; 
-  overflow: visible;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  flex: 1;
-}
-
-header, footer {
-	padding: 1em;
-	overflow: visible;
-}
-header {
-	background: white;
-	height: 30px;
-}
-footer {
-	background: white;
-	position:fixed;
-	left:0px;
-	bottom:0px;
-	height:30px;
-	width:100%;
-}     
-
 .block-animation {
 	margin-top: 10px;
 	border: none;

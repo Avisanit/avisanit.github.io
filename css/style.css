@@ -227,3 +227,17 @@ footer a {
 	.section-content { margin-top: 45px; }
 	#nav ul li { padding: 0 5px; }
 }
+
+.flex-box {
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-sizing: content-box;
+	overflow: visible;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	flex: 1;
+}
