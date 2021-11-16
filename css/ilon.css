@@ -1,7 +1,7 @@
 .block-animation {
 	margin-top: 10px;
 	border: none;
- 	background: url(../ilon1.png);
+ 	background: url(../pictures/ilon/ilon1.png);
 	display: block;
 	width: 250px;
 	height: 250px;
@@ -17,7 +17,7 @@
 	border: none;
 }     
 .block-animation:hover {
-    background: url(../ilon2.png);
+    background: url(../pictures/ilon/ilon2.png);
 	overflow: visible;
 	border: none;
 	opacity: 100%;

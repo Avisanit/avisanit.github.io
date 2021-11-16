@@ -1,0 +1,27 @@
+header, footer {
+	padding: 1em;
+	overflow: visible;
+}
+header {
+	font-size: 2.2em;
+    text-align: center; 
+    padding: 5px;
+    background: #8fa09b;
+    color: #ffe;
+}
+footer {
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	background: #8fa09b;
+    color: #fff; 
+    padding: 5px; 
+	width: 100%;
+	text-align: center; 
+}     
+
+.container {
+	width: 150px;
+	margin: 0 auto;
+}
