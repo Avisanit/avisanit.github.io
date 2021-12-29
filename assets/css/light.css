@@ -1,0 +1,352 @@
+body{
+    background: #f5daf3;
+    height: 100%;
+}
+
+* {
+    cursor: url("../img/kirby11.png"), default;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    border: 1px solid #DC143C;
+    background-color: #DC143C;
+    cursor: url("../img/kirby12.png"), pointer;
+}
+
+.btn1, .btn2, .btn3 {
+    transform: rotate(20deg);
+}
+
+.btn2 {
+    margin-right: 35%;
+}
+
+.btn span.btn-info, span.btn-setts, span.btn-profile, .btn-return {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 14%;
+}
+
+.btn span.btn-info, span.btn-setts, span.btn-profile, .btn-return, .btn-main, .btn-play {
+    cursor: url("../img/kirby12.png"), pointer;
+}
+
+.btn span.btn-info {
+    background: url('../img/info1.png') no-repeat;
+}
+
+.btn span.btn-setts {
+    background: url('../img/setts1.png') no-repeat;
+}
+
+.btn span.btn-profile {
+    background: url('../img/user1.png') no-repeat;
+}
+
+.btn-return {
+    background: url('../img/menu1.png') no-repeat;
+}
+
+.btn-main {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #DC143C;
+    border: 1px solid crimson;
+    align-items: center;
+}
+
+.btn-play {
+    background: url('../img/play1.png') no-repeat;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 23%;
+}
+
+.main-index {
+    position: absolute;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.column-index {
+     justify-content: space-around;
+     align-items: center;
+     width: 50%;
+ }
+
+ .wrap-row {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .wrap-column {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .center {
+     position: absolute;
+     color: #DC143C;
+     font-size: 30px;
+     text-align: left;
+     font-family: 'Vujahday Script', cursive;
+     line-height: inherit;
+     width: 80%;
+ }
+
+.center-index {
+    top: 20%;
+    height: 80%;
+    left: 10%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.center-info {
+    left: 10%;
+    top: 15%;
+}
+
+.center-settings {
+    left: 16%;
+    top: 15%;
+}
+
+.column-settings {
+    width: 70%;
+    padding-right: 50px;
+}
+
+.block {
+    width: 100%;
+    align-items: center;
+}
+
+#canvas{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.lvl-body {
+    background: url('../img/lvlFon1.jpg') no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    opacity: 1;
+}
+
+.lvl-block {
+    width: 82%;
+    margin-top: 8%;
+    margin-left: 9%;
+}
+
+.canvas-lvl {
+    flex: 5;
+}
+
+.menu-lvl {
+    flex: 2;
+}
+
+#canvas1 {
+    display: block;
+    background: white;
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+    border: solid 1px crimson;
+    border-radius: 2%;
+}
+
+.btn-game {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #DC143C;
+    cursor: url("../img/kirby12.png"), pointer;
+}
+
+.block {
+    float: left;
+    line-height: inherit;
+    font-size: 20px;
+    font-family: 'Vujahday Script', cursive;
+    color: #DC143C;
+    width: 24.5%;
+    margin-top: 2%;
+    margin-bottom:2%;
+    text-align: center;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #DC143C;
+}
+
+hr {
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    box-shadow: 0 0 10px 1px #DC143C;
+}
+
+#timer, .lvl-mode {
+    padding-left: 10px;
+}
+
+.lvl-moves {
+    justify-content: center;
+}
+
+.block-pos {
+    margin-left: 30%;
+}
+
+#parts {
+    font-family: 'Vujahday Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#vol1, #vol2 {
+    width: 40%;
+    cursor: url("../img/kirby12.png"), pointer;
+    align-self: center;
+    -webkit-appearance: none;
+    height: 15px;
+    background: rgba(220, 20, 60, 0.33);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#vol1:hover, #vol2:hover {
+    opacity: 1;
+}
+
+#vol1::-webkit-slider-thumb, #vol2::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #DC143C;
+}
+
+#vol1::-moz-range-thumb, #vol2::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #DC143C;
+}
+
+.params {
+    justify-content: space-between;
+}
+
+.btn-theme, .btn-sound, .btn-click {
+    margin-left: 50px;
+    border-radius: 10%;
+    padding: 10px;
+    cursor: url("../img/kirby12.png"), pointer;
+}
+
+.choice {
+    border: 2px solid rgba(220, 20, 60, 0.33);
+}
+
+.set-inf {
+    color: #fff; /* цвет текста */
+    background: #DC143C; /* фон кнопки */
+    padding: 15px 15px;
+    border-radius: 15px;
+    margin-left: -20%;
+}
+
+.bigFlex {
+    position: absolute;
+    display: none; /*or flex*/
+    opacity: 0.9;
+    width: 84%;
+    height: 80%;
+    left: 8%;
+    background-color: white;
+    top: 6%;
+}
+
+.result-header {
+    color: #DC143C;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Vujahday Script', cursive;
+    line-height: inherit;
+    width: 100%;
+    justify-content: center;
+}
+
+.result-stat {
+    color: #DC143C;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Vujahday Script', cursive;
+    line-height: inherit;
+    width: 100%;
+    justify-content: center;
+}
+
+.res {
+    padding: 24px 24px;
+}
+
+.path {
+    background: rgba(220, 20, 60, 0.34); /* фон кнопки */
+    padding: 15px 15px;
+    width: 50px;
+    border-radius: 15px;
+}
+
+.paths {
+    width: 50%;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.btn-timer {
+    padding-left: 30px;
+}
+
+.smalFlex {
+    position: absolute;
+    display: flex;
+    background: black;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: -9%;
+    margin-top: -8%;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'Vujahday Script', cursive;
+    line-height: inherit;
+    justify-content: center;
+}
+
+

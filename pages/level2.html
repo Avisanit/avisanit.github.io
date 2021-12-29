@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" id ="theme" href='../assets/css/light.css'/>
+        <link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
+        <title>SLICE GEOM GAME</title>
+    </head>
+    <body id="lvl-b" class="lvl-body">
+    <audio id="knife1" src="../assets/sounds/knife1.wav" preload="auto"></audio>
+    <audio id="knife2" src="../assets/sounds/knife2.mp3" preload="auto"></audio>
+    <div class="wrap-row lvl-block">
+        <div id="results" class="bigFlex wrap-column">
+            <div class="wrap-column">
+                <div class="res result-header">РЕЗУЛЬТАТЫ</div>
+                <div id="accuracy" class="res result-stat"></div>
+                <div id="timeSolve" class="res result-stat"></div>
+                <div id="points" class="res result-stat"></div>
+                <div id="mainPaths" class="res wrap-row paths">
+                <div id="path01" class="path"><img id="path1" src="../assets/img/main1.png"></div>
+                <div id="path02" class="path"><img id="path2" src="../assets/img/reload1.png"></div>
+                <div id="path03" class="path"><img id="path3" src="../assets/img/next1.png"></div>
+            </div>
+            </div>
+        </div>
+        <div id="saver" class="smalFlex wrap-row">
+            <div id="timerPlay" class="btn-timer">
+                НАЖМИТЕ
+                <img id="timerPlay1" src="../assets/img/playGame1.png">
+                ЧТОБЫ (ПРОДОЛЖИТЬ) ИГРАТЬ :)
+            </div>
+        </div>
+        <div class="wrap-column canvas-lvl">
+            <canvas id="canvas1"></canvas>
+        </div>
+        <div class="wrap-column menu-lvl">
+            <div class="wrap-row block block-pos">
+                <a>УРОВЕНЬ:</a>
+                <div id ="level">
+                    <span class="wrap-row lvl-mode">
+                        <img id ="level1" src="../assets/img/heart1.png">
+                        <img id ="level2" src="../assets/img/heart1.png">
+                    </span>
+                </div>
+            </div>
+            <hr>
+            <div class="wrap-row block block-pos lvl-moves">
+                <a class="block-pos">ЧАСТИ:</a>
+                <div id="parts" class="lvl-mode"></div>
+            </div>
+            <hr>
+            <div id="moveId" class="wrap-row block-pos"></div>
+            <hr>
+            <div class="wrap-row block block-pos">
+                <div id="timerPause" class="btn-timer">
+                    <img id="timerPause1" src="../assets/img/pauseGame1.png">
+                </div>
+            </div>
+            <hr>
+            <div class="wrap-row block block-pos">
+                <a id="sett-link" class="set-inf" href = "settings.html">
+                    НАСТРОЙКИ
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/init.js"></script>
+    <script src="../assets/js/lvl2.js"></script>
+    </body>
+</html>

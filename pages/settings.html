@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" id ="theme" href="../assets/css/light.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
+        <title>НАСТРОЙКИ</title>
+    </head>
+    <body>
+    <audio id="knife1" src="../assets/sounds/knife1.wav" preload="auto"></audio>
+    <audio id="knife2" src="../assets/sounds/knife2.mp3" preload="auto"></audio>
+        <div class="wrap-column center center-settings">
+            <div class="wrap-row">
+                <div class="wrap-column column-settings">
+                    <div>
+                        <div class="wrap-row">
+                            ТЕМА:
+                            <div id='theme01' class="btn-theme">
+                                <img id='theme1' src="../assets/img/knife1.png">
+                            </div>
+                            <div id='theme02' class="btn-theme">
+                                <img id='theme2' src="../assets/img/knife2.png">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="wrap-row">
+                            ЗВУКИ:
+                            <div id='click01' class="btn-click">
+                                <img id='click1' src="../assets/img/click1.png">
+                            </div>
+                            <div id='click02' class="btn-click">
+                                <img id='click2' src="../assets/img/click2.png">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="wrap-row params">
+                            ГРОМКОСТЬ ЗВУКОВ:
+                            <input id="vol2" type="range" min="0" max="100" step="1" value="0">
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap-column">
+                    <button class="btn">
+                        <a id="back" href="../index.html">
+                            <span class="btn-return"></span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script src="../assets/js/init.js"></script>
+        <script src="../assets/js/setts.js"></script>
+    </body>
+</html>
